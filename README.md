@@ -31,7 +31,7 @@ MLLSQL: The connection string to your SQL Server instance.
 You will be required to use a tool like [Postman](https://www.getpostman.com/), [Fiddler](https://www.telerik.com/fiddler) or [CURL](https://curl.haxx.se/) in order to send a call to the endpoint.
 
 ### Send
-Type: POST
+Type: POST \
 Address: http://yourserver:yourport/api/log
 
 ### Header
