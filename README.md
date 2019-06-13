@@ -30,7 +30,7 @@ MLLSQL: The connection string to your SQL Server instance.
 ## Testing
 You will be required to use a tool like Postman or Fiddler in order to send a call to the endpoint.
 
-## POST
+### POST
 Type: POST
 Address: http://yourserver:yourport/api/log
 
@@ -40,6 +40,7 @@ content-type:application/json
 Authorization: Bearer yoursha1tokengenerated
 ```
 ### Body
+DeviceID must be a minimum of 11 characters, maximum 17.
 ```
 {"DeviceID":"123456789012"}
 ```
