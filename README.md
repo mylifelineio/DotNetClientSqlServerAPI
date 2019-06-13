@@ -27,6 +27,12 @@ MLLSQL: The connection string to your SQL Server instance.
 6. Right click on the App Pool for this new Site and set .Net CLR Version to No Managed Code.
 7. Do an iisreset.
 
+### Docker
+This is also available on [Docker Hub](https://hub.docker.com/r/mylifelineio/clientsqlapi)
+```
+docker pull mylifelineio/clientsqlapi
+```
+
 ## Testing
 You will be required to use a tool like [Postman](https://www.getpostman.com/), [Fiddler](https://www.telerik.com/fiddler) or [CURL](https://curl.haxx.se/) in order to send a call to the endpoint.
 
