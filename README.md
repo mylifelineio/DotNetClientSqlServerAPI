@@ -12,7 +12,7 @@ Two environment variables are required:
 1. MLLTOKEN
 2. MLLSQL
 
-MLLTOKEN: A SHA-1 key used for authorization can be generated here [Generate a SHA1 key](https://passwordsgenerator.net/sha1-hash-generator/).
+MLLTOKEN: A SHA-1 key used for authorization can be generated here [Generate a SHA1 key](https://passwordsgenerator.net/sha1-hash-generator/). \
 MLLSQL: The connection string to your SQL Server instance.
 
 ## Installation
