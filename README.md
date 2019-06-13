@@ -27,6 +27,9 @@ MLLSQL: The connection string to your SQL Server instance.
 6. Right click on the App Pool for this new Site and set .Net CLR Version to No Managed Code.
 7. Do an iisreset.
 
+### Nginx and Linux
+This application can also be run on Linux. Follow these [instructions](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-2.2) from Microsoft.
+
 ### Docker
 This is also available on [Docker Hub](https://hub.docker.com/r/mylifelineio/clientsqlapi)
 ```
