@@ -8,7 +8,7 @@ This API only have a single endpoint api/log that will be used with the MyLifeli
 In your MS SQL Server, create a new blank database. The application will create the necessary structure.
 
 ## Environment Variables
-Two environment variables are required:
+Two **system** environment variables are required:
 1. MLLTOKEN
 2. MLLSQL
 
