@@ -15,11 +15,13 @@ namespace MyLifeline.DotNetClientSqlServerAPI.Controllers
     [ApiController]
     public class DeviceLogsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private ApplicationDbContext _context;
 
-        public DeviceLogsController(ApplicationDbContext context)
+        public DeviceLogsController()
         {
-            _context = context;
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+            optionsBuilder.UseSqlServer(Environment.GetEnvironmentVariable("MLLSQL"));
+            _context = new ApplicationDbContext(optionsBuilder.Options);
         }
 
         // POST: api/DeviceLogs
